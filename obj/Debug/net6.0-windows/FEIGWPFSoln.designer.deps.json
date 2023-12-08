@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LiveCharts.Core/0.9.8": {
+        "runtime": {
+          "lib/netstandard2.0/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiveCharts.Core/0.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "path": "livecharts.core/0.9.8",
+      "hashPath": "livecharts.core.0.9.8.nupkg.sha512"
+    }
+  }
+}

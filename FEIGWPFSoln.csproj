@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;C:\Program Files (x86)\SDK\FEIG.ID.SDK.Gen3.NET-v6.5.0\win10-x64\net5.0\*&quot; $(TargetDir)" />
+  </Target>
+
+  <ItemGroup>
+    <COMReference Include="MLApp">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>c36e46ab-6a81-457b-9f91-a7719a06287f</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Core" Version="0.9.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="fedm-cs-net5.0">
+      <HintPath>..\..\..\..\..\net5.0\fedm-cs-net5.0.dll</HintPath>
+    </Reference>
+    <Reference Include="MathWorks.MATLAB.Engine">
+      <HintPath>..\..\..\..\..\Program Files\MATLAB\R2023b\extern\dotnet\netstandard2.0\MathWorks.MATLAB.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="MathWorks.MATLAB.Types">
+      <HintPath>..\..\..\..\..\Program Files\MATLAB\R2023b\extern\dotnet\netstandard2.0\MathWorks.MATLAB.Types.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
