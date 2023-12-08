@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tVC0VjflLmXeav1syg3uFG8WIdV2Ues31YfSPKghla2qOSFvB4nsTgpcl6CpzO0UbGohufMfpVDRthkBv8/L6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ual-laptop\\source\\repos\\WpfApp2\\FEIGWPFSoln.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ual-laptop\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512"
+  ],
+  "logs": []
+}

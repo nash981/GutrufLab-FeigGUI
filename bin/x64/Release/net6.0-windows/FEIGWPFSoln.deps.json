@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FEIGWPFSoln/1.0.0": {
+        "dependencies": {
+          "fedm-cs-net5.0": "6.5.0.0",
+          "MathWorks.MATLAB.Engine": "23.2.0.0",
+          "MathWorks.MATLAB.Types": "23.2.0.0"
+        },
+        "runtime": {
+          "FEIGWPFSoln.dll": {}
+        }
+      },
+      "fedm-cs-net5.0/6.5.0.0": {
+        "runtime": {
+          "fedm-cs-net5.0.dll": {
+            "assemblyVersion": "6.5.0.0",
+            "fileVersion": "6.5.0.0"
+          }
+        }
+      },
+      "MathWorks.MATLAB.Engine/23.2.0.0": {
+        "runtime": {
+          "MathWorks.MATLAB.Engine.dll": {
+            "assemblyVersion": "23.2.0.0",
+            "fileVersion": "23.2.0.0"
+          }
+        }
+      },
+      "MathWorks.MATLAB.Types/23.2.0.0": {
+        "runtime": {
+          "MathWorks.MATLAB.Types.dll": {
+            "assemblyVersion": "23.2.0.0",
+            "fileVersion": "23.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FEIGWPFSoln/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "fedm-cs-net5.0/6.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathWorks.MATLAB.Engine/23.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathWorks.MATLAB.Types/23.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
